@@ -6,14 +6,14 @@ with open("requirements.txt", "r", encoding="utf-8") as _f:
 
 setup(
     name="spcalc",
-    description="Command Line Calculator",
+    description="Stratergy Pattern Calculator",
     packages=find_packages(),
     author="Yasiru Rangana",
     entry_points="""
     [console_scripts]
-    spcalc=src.main:main
+    spcalc=spcalc.main:main
     """,
     install_requires=requirements,
-    version="1.2.0",
+    version="2.0.0",
     url="https://github.com/yrangana/Strategy_Pattern_Calculator",
 )
