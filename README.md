@@ -56,12 +56,12 @@ python -m pip install --editable .
 
 - Run the calculator with prompts
 ```
-calc
+spcalc
 ```
 
 - Run the calculator with arguments
 ```
-calc -n1 <first number> -n2 <second number> -op <operation>
+spcalc -n1 <first number> -n2 <second number> -op <operation>
 ```
 
 
