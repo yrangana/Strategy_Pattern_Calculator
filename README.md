@@ -61,7 +61,7 @@ Options:
 ```
 
 ## Authors
-Yasitha Rangana
+[Yasitha Rangana](https://github.com/yrangana)
 
 ## Version History
 * V1.0.0
