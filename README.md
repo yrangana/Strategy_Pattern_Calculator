@@ -54,7 +54,7 @@ Usage: main.py [OPTIONS]
 
 Options:
   -n1, --num1 FLOAT               First number
-  -n1, --num2 FLOAT               Second number
+  -n2, --num2 FLOAT               Second number
   -op, --operation [add|subtract|multiply|divide]
                                   Operation to perform
   --help                          Show this message and exit.

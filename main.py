@@ -25,7 +25,7 @@ operations = {
 )
 @click.option(
     "--num2",
-    "-n1",
+    "-n2",
     default=0,
     help="Second number",
     prompt="Enter second number",
