@@ -64,8 +64,8 @@ Options:
 Yasitha Rangana
 
 ## Version History
-* 0.1
-    * Initial Release
+* V1.0.0
+    * [Initial Release as a Command Line Tool](../../releases/tag/V1.0.0)
 
 ## License
 This project is licensed under the MIT License - see the [License](LICENSE) file for details
