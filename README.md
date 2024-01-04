@@ -84,9 +84,12 @@ Options:
 
 ## Version History
 * V1.0.0
-    * [Initial Release as a Command Line Tool](../../releases/tag/V1.0.0)
+    * [Initial Release as a Command Line Tool](https://github.com/yrangana/Strategy_Pattern_Calculator/releases/tag/V1.0.0)
 * V1.1.0
-    * [Minor Bugs were fixed](../../releases/tag/V1.1.0)
+    * [Minor Bugs were fixed](https://github.com/yrangana/Strategy_Pattern_Calculator/releases/tag/V1.1.0)
+ 
+* V1.2.0
+    * [Minor Improvements](https://github.com/yrangana/Strategy_Pattern_Calculator/releases/tag/V1.2.0)
 
 ## License
 This project is licensed under the MIT License - see the [License](LICENSE) file for details
