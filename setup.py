@@ -14,6 +14,6 @@ setup(
     spcalc=src.main:main
     """,
     install_requires=requirements,
-    version="1.1.0",
+    version="1.2.0",
     url="https://github.com/yrangana/Strategy_Pattern_Calculator",
 )
