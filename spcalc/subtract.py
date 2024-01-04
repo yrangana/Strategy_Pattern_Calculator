@@ -1,4 +1,4 @@
-from src.operation import Operation
+from spcalc.operation import Operation
 
 
 class Subtract(Operation):

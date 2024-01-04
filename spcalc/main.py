@@ -1,9 +1,9 @@
 # command line tool using click
-from src.calculator import Calculator
-from src.add import Add
-from src.subtract import Subtract
-from src.multiply import Multiply
-from src.divide import Divide
+from spcalc.calculator import Calculator
+from spcalc.add import Add
+from spcalc.subtract import Subtract
+from spcalc.multiply import Multiply
+from spcalc.divide import Divide
 import click
 
 operations = {
