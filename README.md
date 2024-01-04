@@ -80,7 +80,7 @@ Options:
 ```
 
 ## Authors
-[Yasitha Rangana](https://github.com/yrangana)
+[Yasiru Rangana](https://github.com/yrangana)
 
 ## Version History
 * V1.0.0
