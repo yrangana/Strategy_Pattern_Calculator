@@ -23,7 +23,7 @@ This is a simple command-line calculator that can perform basic arithmetic opera
 ### Installing
 - Clone the repository
 ```
-git clone
+git clone https://github.com/yrangana/Strategy_Pattern_Calculator.git
 ```
 - Install the dependencies
 ```
@@ -68,4 +68,4 @@ Yasitha Rangana
     * Initial Release
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the [License](LICENSE) file for details
