@@ -30,22 +30,41 @@ git clone https://github.com/yrangana/Strategy_Pattern_Calculator.git
 make install
 ```
 
-### Executing program
+### Executing program in python
 
 - Run the calculator with prompts
 ```
-python main.py
+python src/main.py
 ```
 
 - Run the calculator with arguments
 ```
-python main.py -n1 <first number> -n2 <second number> -op <operation>
+python src/main.py -n1 <first number> -n2 <second number> -op <operation>
 ```
 
 - Run the tests
 ```
 make test
 ```
+
+### Executing program in CLI
+
+- Setup as a Command Line Tool
+```
+python -m pip install --editable .
+```
+
+- Run the calculator with prompts
+```
+calc
+```
+
+- Run the calculator with arguments
+```
+calc -n1 <first number> -n2 <second number> -op <operation>
+```
+
+
 
 ## Help
 
