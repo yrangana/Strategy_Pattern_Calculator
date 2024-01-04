@@ -40,11 +40,37 @@ operations = {
     prompt="Enter operation",
 )
 def main(num1, num2, operation):
-    print("Running calculator...")
+    click.echo(
+        click.style(
+            "Running calculator...", blink=True, bg="black", fg="white", bold=True
+        )
+    )
+    click.echo(click.style("=" * 50, fg="cyan"))
+
     calc = Calculator(num1, num2, operations[operation])
     result = calc.execute()
-    print(result)
+
+    click.echo(
+        click.style("Number 1: ", fg="cyan") + click.style(str(num1), fg="yellow")
+    )
+
+    click.echo(
+        click.style("Number 2: ", fg="cyan") + click.style(str(num2), fg="yellow")
+    )
+
+    click.echo(
+        click.style("Operation: ", fg="cyan") + click.style(operation, fg="green")
+    )
+
+    click.echo(click.style("=" * 50, fg="cyan"))
+
+    click.echo(
+        click.style("Result: ", fg="cyan")
+        + click.style(str(result), fg="blue", bold=True)
+    )
+
+    click.echo(click.style("=" * 50, fg="cyan"))
 
 
 if __name__ == "__main__":
-    main() #pylint: disable=no-value-for-parameter
+    main()  # pylint: disable=no-value-for-parameter
