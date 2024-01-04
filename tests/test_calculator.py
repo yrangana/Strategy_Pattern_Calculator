@@ -1,7 +1,7 @@
 # test cases for calculator.py
 from src.calculator import Calculator
 from src.add import Add
-from src.substract import Substract
+from src.subtract import Subtract
 from src.multiply import Multiply
 from src.divide import Divide
 import pytest
@@ -12,8 +12,8 @@ class TestCalculator:
         calculator = Calculator(1, 2, Add())
         assert calculator.execute() == 3
 
-    def test_calculator_substract(self):
-        calculator = Calculator(1, 2, Substract())
+    def test_calculator_subtract(self):
+        calculator = Calculator(1, 2, Subtract())
         assert calculator.execute() == -1
 
     def test_calculator_multiply(self):
