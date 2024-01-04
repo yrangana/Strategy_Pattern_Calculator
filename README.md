@@ -1,4 +1,5 @@
 [![Python application test with Github Actions](https://github.com/yrangana/Strategy_Pattern_Calculator/actions/workflows/main.yml/badge.svg)](https://github.com/yrangana/Strategy_Pattern_Calculator/actions/workflows/main.yml)
+ [![Upload Python Package](https://github.com/yrangana/Strategy_Pattern_Calculator/actions/workflows/python-publish.yml/badge.svg)](https://github.com/yrangana/Strategy_Pattern_Calculator/actions/workflows/python-publish.yml)
 
 # Strategy Pattern Calculator
 Python implementation of a command line calculator using the strategy design pattern 
@@ -11,9 +12,12 @@ This is a simple command-line calculator that can perform basic arithmetic opera
 - Multiplication
 - Division
 
+Setup tool is configured to build and use as a CLI.
+
+Further, Business logic is exposed as a pip package [spcalc](https://pypi.org/project/spcalc/)
+
 ### To be implemented:
 
-- Setup tool to install the calculator as a package
 - Exponentiation
 - Square root
 - Logarithm
@@ -30,7 +34,7 @@ git clone https://github.com/yrangana/Strategy_Pattern_Calculator.git
 make install
 ```
 
-### Executing program in python
+### Executing program in Python
 
 - Run the calculator with prompts
 ```
@@ -64,8 +68,6 @@ spcalc
 spcalc -n1 <first number> -n2 <second number> -op <operation>
 ```
 
-
-
 ## Help
 
 ```
@@ -79,6 +81,24 @@ Options:
   --help                          Show this message and exit.
 ```
 
+### Use as a pip package
+
+- install pip package
+```
+pip install spcalc
+```
+
+- Example usecae
+```
+from spcalc import calculator, add, subtract, multiply, divide
+
+mycalc = calculator.Calculator(3,5,add.Add()) #subtract.Subtract(), multiply.Multiply(), divide.Divide()
+
+print(mycalc.execute())
+
+```
+
+
 ## Authors
 [Yasiru Rangana](https://github.com/yrangana)
 
@@ -90,6 +110,9 @@ Options:
  
 * V1.2.0
     * [Minor Improvements](https://github.com/yrangana/Strategy_Pattern_Calculator/releases/tag/V1.2.0)
+ 
+* V 2.0.0
+    * [Major release](https://github.com/yrangana/Strategy_Pattern_Calculator/releases/tag/V2.0.0)
 
 ## License
 This project is licensed under the MIT License - see the [License](LICENSE) file for details
