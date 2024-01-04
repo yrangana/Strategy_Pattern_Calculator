@@ -48,7 +48,15 @@ def main(num1, num2, operation):
     click.echo(click.style("=" * 50, fg="cyan"))
 
     calc = Calculator(num1, num2, operations[operation])
-    result = calc.execute()
+    # catch zero division error
+    try:
+        result = calc.execute()
+    except ZeroDivisionError:
+        click.echo(click.style("Cannot divide by zero", fg="red"))
+        return
+    except Exception:  # pylint: disable=broad-except
+        click.echo(click.style("Something went wrong", fg="red"))
+        return
 
     click.echo(
         click.style("Number 1: ", fg="cyan") + click.style(str(num1), fg="yellow")
